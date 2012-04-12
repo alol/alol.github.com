@@ -2,10 +2,10 @@
 @include global-reset;
 @include reset-html5;
 
-//@import "custom/colors";
+@import "custom/colors";
 //@import "custom/fonts";
 @import "custom/alol";
-//@import "custom/layout";
+@import "custom/layout";
 @import "base";
-//@import "partials";
-//@import "custom/styles";
+@import "partials";
+@import "custom/styles";
