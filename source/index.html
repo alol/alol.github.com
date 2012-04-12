@@ -5,11 +5,8 @@ layout: default
 {% assign index = true %}
 {% for post in paginator.posts %}
     {% assign content = post.content %}
-    <article class="post">
-      <section class="left">&nbsp; </section>
-      <section class="right">
-          {% include article.html %}
-      </section>
+    <article class="hentry" role="article">
+        {% include article-home.html %}
     </article>
 {% endfor %}
 {% comment %}
