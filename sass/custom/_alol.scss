@@ -1,5 +1,7 @@
 body { background:image-url('diagonal-noise.png'); color: #555; }
 
+header.banner { height: 160px; }
+
 section#inside { width:650px; margin: 30px auto 0 auto; padding: 50px 20px; border-radius:2px; }
 
 hgroup.left, section.left { float:left; width: 150px; margin-right:20px; }
@@ -10,7 +12,7 @@ hgroup.left a { color:#555; }
 div#header-links { position: absolute; bottom: 5px; right: 10px; font-size:18px; }
 div#header-links a { color: rgb(226, 103, 103); }
 
-article { padding-top:25px; }
+article { margin-top:25px; }
 
 h1, h2 { font-family: Georgia, serif; font-weight: normal; }
 
