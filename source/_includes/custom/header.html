@@ -1,6 +1,14 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+<hgroup class="left">
+  <span class="title"><a href="{{ root_url }}/">{{ site.title }}</a></span>
+  {% comment %}
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
   {% endif %}
+  {% endcomment %}
+</hgroup>
+<hgroup class="right">
+    <h2>Alan Oliver</h2>
+    <div id="header-links">
+        <a href="http://github.com/alol">Github</a> | <a href="http://twitter.com/alol">Twitter</a> 
+    </div>
 </hgroup>
