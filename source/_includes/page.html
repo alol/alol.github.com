@@ -1,0 +1,21 @@
+{% unless page.no_header %}
+  <section class="left">
+      <header class="no-margin">
+          <h1 class="entry-title"><a href="{{ post.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h1>
+      </header>
+  </section>
+{% endunless %}
+<section class="right">
+<div class="entry-content">{{ content }}</div>
+  <footer>
+
+    <p class="meta">
+      {% if page.previous.url %}
+        <a class="basic-alignment left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="basic-alignment right" href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
+    </p>
+  </footer>
+</article>

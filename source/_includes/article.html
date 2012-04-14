@@ -33,12 +33,12 @@
             <a class="basic-alignment right" href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
           {% endif %}
         </p>
+        {% if site.disqus_short_name and page.comments == true %}
+              <section>
+                <h1>Comments</h1>
+                <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+              </section>
+            </section>
+        {% endif %}
       </footer>
     </article>
-    {% if site.disqus_short_name and page.comments == true %}
-      <section>
-        <h1>Comments</h1>
-        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-      </section>
-    </section>
-{% endif %}
