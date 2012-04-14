@@ -3,8 +3,11 @@ $img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
 $link-color: #E26767 !default;
-$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
-$link-color-visited: adjust-color($link-color, $hue: 30, $lightness: -4) !default;
+//$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
+$link-color-visited: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
+//$link-color-visited: adjust-color($link-color, $hue: 30, $saturation: 0, $lightness: -6) !default;
+$link-color-hover: #622D2D !default;
+//$link-color-visited: #67e2e2 !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
@@ -76,8 +79,8 @@ html {
 }
 body {
   > div {
-    background: $sidebar-bg $noise-bg;
-    border-bottom: 1px solid $page-border-bottom;
+//    background: $sidebar-bg $noise-bg;
+//    border-bottom: 1px solid $page-border-bottom;
     > div {
       background: $main-bg $noise-bg;
       border-right: 1px solid $sidebar-border;

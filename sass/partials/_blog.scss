@@ -7,8 +7,10 @@ article {
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
+    text-align: right;
     h1 {
       margin: 0;
+      font-weight: normal;
       a { text-decoration: none;
         &:hover { text-decoration: underline; } }
     }
@@ -19,7 +21,8 @@ article {
       &.meta {
         @extend .sans;
         text-transform: uppercase;
-        position: absolute; top: 0;
+        position: absolute; top: 0; right: 0;
+        text-align: right;
       }
     }
     @media only screen and (min-width: 768px) {
@@ -27,6 +30,9 @@ article {
       padding-bottom: 1em;
       background: $img-border bottom left repeat-x;
     }
+  }
+  header.no-margin {
+    padding-top: 0;
   }
   h2 {
     padding-top: 0.8em;

@@ -1,25 +1,25 @@
 body { background:image-url('diagonal-noise.png'); color: #555; }
 
-header.banner { height: 160px; }
+header.banner { height: 210px; }
 
-section#inside { width:650px; margin: 30px auto 0 auto; padding: 50px 20px; border-radius:2px; }
+section#inside { width:800px; margin: 30px auto 0 auto; padding: 50px 20px; border-radius:2px; }
 
-hgroup.left, section.left { float:left; width: 150px; margin-right:20px; }
-hgroup.right, section.right { float:left; width: 450px; padding-left: 6px; }
-header hgroup.left, header hgroup.right { height: 150px; background-color: rgba(255,255,255,0.5); position: relative; }
+hgroup.left, section.left { float:left; width: 200px; margin-right:20px; }
+hgroup.right, section.right { float:left; width: 550px; padding-left: 6px; }
+header hgroup.left, header hgroup.right { height: 200px; background-color: rgba(255,255,255,0.5); position: relative; }
 
 hgroup.left a { color:#555; }
-div#header-links { position: absolute; bottom: 5px; right: 10px; font-size:18px; }
-div#header-links a { color: rgb(226, 103, 103); }
+div#header-links { position: absolute; bottom: 8px; right: 10px; font-size:18px; }
+//div#header-links a { color: rgb(226, 103, 103); }
 
 article { margin-top:25px; }
 
 h1, h2 { font-family: Georgia, serif; font-weight: normal; }
 
-header .title { position: absolute; right: 0; bottom: 0; padding: 0 10px 15px 0; line-height:34px; font-size:56px; font-weight: normal; font-family: Georgia serif;}
-header h2 { position: absolute; left:0; bottom:0; margin-bottom:10px; margin-left:10px; line-height: 15px; font-family:sans-serif; }
+header .title { position: absolute; right: 0; bottom: 0; padding: 0 10px 15px 0; line-height:34px; font-size:56px; font-weight: normal; }
+header h2 { position: absolute; left:0; bottom:0; margin-bottom:16px; margin-left:10px; line-height: 15px; color: #555; font-weight:normal; font-family:Verdana, sans-serif; }
 
-a, a:visited, a:active { color: #E26767; text-decoration: none; }
-a:hover { color: #222; }
+a { text-decoration: none; }
+//a:hover { color: #222; }
 
 //pre { background-color: rgba(255, 255, 194, 0.4); padding: 5px; }
