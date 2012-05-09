@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.alol.co.uk/blog/2012/05/08/the-steps-towards-vim-mastery/</loc>
-        <lastmod>2012-05-09T16:51:02+01:00</lastmod>
+        <loc>http://www.alol.co.uk/blog/2012/05/08/getting-serious-with-vim/</loc>
+        <lastmod>2012-05-09T17:55:32+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.alol.co.uk/about/</loc>
@@ -10,10 +10,10 @@
     </url>
     <url>
         <loc>http://www.alol.co.uk/blog/archives/</loc>
-        <lastmod>2012-05-09T16:51:02+01:00</lastmod>
+        <lastmod>2012-05-09T17:55:32+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.alol.co.uk/</loc>
-        <lastmod>2012-05-09T16:51:02+01:00</lastmod>
+        <lastmod>2012-05-09T17:55:32+01:00</lastmod>
     </url>
 </urlset>

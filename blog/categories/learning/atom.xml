@@ -4,7 +4,7 @@
   <title><![CDATA[Category: learning | alol]]></title>
   <link href="http://www.alol.co.uk/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://www.alol.co.uk/"/>
-  <updated>2012-05-09T16:51:03+01:00</updated>
+  <updated>2012-05-09T17:56:32+01:00</updated>
   <id>http://www.alol.co.uk/</id>
   <author>
     <name><![CDATA[Alan Oliver]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[The steps towards Vim mastery]]></title>
-    <link href="http://www.alol.co.uk/blog/2012/05/08/the-steps-towards-vim-mastery/"/>
+    <title type="html"><![CDATA[Getting serious with Vim]]></title>
+    <link href="http://www.alol.co.uk/blog/2012/05/08/getting-serious-with-vim/"/>
     <updated>2012-05-08T17:26:00+01:00</updated>
-    <id>http://www.alol.co.uk/blog/2012/05/08/the-steps-towards-vim-mastery</id>
+    <id>http://www.alol.co.uk/blog/2012/05/08/getting-serious-with-vim</id>
     <content type="html"><![CDATA[<p>I originally learned Vim for the same reason as many other people do; to edit configuration files on a web server. As such, I quickly learned that if I pressed <code>i</code>, I could type stuff, and <code>Esc</code> followed by <code>:wq</code> would save a file, and return me to the (relative) safety of the shell. For a great many years, that was all I felt like I needed to learn. <em>No</em> movement commands other than the cursor keys, and the concept of 'modes' was certainly lost to me.</p>
 
 <p>I considered this fine and dandy for a long time, and did all of my 'serious' text editing in TextMate, which I felt was the pinnacle of productivity for a couple of years. However, after a significant period of inactivity, I felt the collective restlessness over the lack of updates, and was very disappointed by TextMate 2 when it finally did land, I decided to what else was out there. While there were a couple of options, nothing really stuck out as being a major step ahead of TextMate.</p>
