@@ -1,1 +1,3 @@
- 
+#
+Sitemap: http://view.staging.vzaar.com/sitemaps/299362428/sitemap.xml
+Exclude: *
